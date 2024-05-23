@@ -13,7 +13,7 @@ export default function Home() {
         id=""
       >
         <button
-          className="bg-[#FFFFFF] p-[20px] w-[30%] md:w-[auto] text-[27px] mr-10 rounded-2xl"
+          className="bg-[#FFFFFF] p-[20px] md:w-[auto] text-[27px] mr-10 rounded-2xl"
           onClick={() => {
             router.push("/#stop_1");
           }}
