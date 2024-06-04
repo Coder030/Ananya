@@ -2,9 +2,17 @@
 
 /* eslint-disable @next/next/no-img-element */
 import Image from "next/image";
+import Typewriter from "./components/Typewriter";
 import { useRouter } from "next/navigation";
 
 export default function Home() {
+  const words = [
+    "A Physics Enthusiast",
+    "A Mathematician",
+    "A Problem Solver",
+    "A Thinker",
+  ];
+
   const router = useRouter();
   return (
     <div className="">
@@ -48,7 +56,7 @@ export default function Home() {
               I'm Ananya Garg.
             </p>
             <p className="lg:text-[40px] md:text-[30px] m-none mb-[20px] text-[22px] ">
-              A mathematician
+              <Typewriter words={words} />
             </p>
           </div>
 
