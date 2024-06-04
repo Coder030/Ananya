@@ -1,3 +1,6 @@
 {
+  "/page": "app/page.js",
+  "/Tutor/page": "app/Tutor/page.js",
+  "/Food/page": "app/Food/page.js",
   "/PROMYS/page": "app/PROMYS/page.js"
 }
