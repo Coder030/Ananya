@@ -7,7 +7,7 @@ const Typewriter = ({
   words,
   typingSpeed = 150,
   deletingSpeed = 100,
-  delay = 1500,
+  delay = 300,
 }) => {
   const [text, setText] = useState("");
   const [isDeleting, setIsDeleting] = useState(false);
